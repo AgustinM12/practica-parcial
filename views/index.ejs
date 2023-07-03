@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+
+    <div class="container">
+
+        <div class="row mt-5">
+            <h1 class="text-center border-botton">Lista de Reservas</h1>
+            <div class="col">
+                <div class="col-md-3 mb-2">
+                    <a href="nueva-reserva" class="btn btn sm btn-primary" id>Nuevo</a>
+                    <a href="#" class="btn btn-info text-light">Inicio</a>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>fecha_ingreso</th>
+                            <th>fecha_salida</th>
+                            <th>Nro. Habitacion</th>
+                            <th>Cantidad_personas</th>
+                            <th>Telefono</th>
+                            <th>Accciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listadoReservas">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+<script src="/js/mostrar-reservas.js"></script>
+    <%- include('partials/footer') %>

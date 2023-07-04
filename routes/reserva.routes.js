@@ -33,7 +33,7 @@ router.get('/editar-reserva/:id', cargarEditarReserva)
 router.get('/api', obtenerReservas)
 
 //OBTENER UNA SOLA RESERVA
-router.get('api/:id', obtenerUnaReserva)
+router.get('/api/:id', obtenerUnaReserva)
 
 // Crear una reserva
 router.post('/nueva-reserva', crearReserva);
